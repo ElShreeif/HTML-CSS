@@ -11,6 +11,20 @@
 span {
  color: var(--main-color);
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+ width: 15px;
+}
+::-webkit-scrollbar-track {
+ background: #101010;
+}
+::-webkit-scrollbar-thumb {
+ background: var(--main-color);
+ border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: #a50c19;
+}
 /* Header of page */
 header {
  background-color: #1a1a1a;
